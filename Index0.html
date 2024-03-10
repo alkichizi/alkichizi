@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>my first website</title>
-
+    <title>Technerd Login Form </title>
+,<style>
+     body {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Arial;
+        margin: 0px;
+      }
+      .my-form {
+        display: flex;
+        flex-direction : column;
+        align-items: center;
+        background-color: rgb(255, 245, 255);
+      }
+.first-name {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+.second-name {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.submit-button {
+margin-top: 10px;
+}
+.first-name-input, .second-name-input, ,.submit-button, .email-input {
+    padding:2opx;
+    width: 350px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.submit-button {
+        width: 150px;
+        margin-bottom: 10px;
+        background-color: green;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid green;
+        cursor: pointer;
+        border-radius: 5px;
+}
+        .submit-button:hover {
+        opacity: 0.8;
+      }
+      .submit-button:active {
+        opacity: 0.5;
+      }
+</style>
 </head>
-<body>
+<body>  
+    <form>
+        <div class="my-form">
     
+        <label class="first-name">First Name</label>
+        <input placeholder="First Name" class="first-name-input">
+    
+        <label class="second-name">Second Name</label>
+        <input placeholder="Second Name" class="second-name-input">
+    
+        <label class="email">Email</label>
+        <input placeholder="Email" class="email-input">
+    
+        <button class="submit-button">Submit</button>
+        </div>
 </body>
 </html>
